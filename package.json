@@ -1,0 +1,21 @@
+{
+  "name": "leafingthru-from-scratch",
+  "version": "1.0.0",
+  "description": "i'm building this from the ground up",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leafingthru/leafingthru-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "meagan",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
