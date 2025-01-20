@@ -16,7 +16,7 @@
   body {
       margin: 50px auto;
       max-width: 640px;
-      font-size: ; var(--font-size);
+      font-size: var(--font-size);
       font-family: "Ubuntu", "Verdana", sans-serif;
       line-height: 1.4em;
       background-color: var(--bgcolor-light);
@@ -39,19 +39,31 @@ a:visited{
 h1,h2,h3 {
       letter-spacing: 0.005em;
       line-height: 1.1em;
-  }
-  header {
-  }
-  main {}
-  nav {
-      text-align: center;
-  }
-article {
 }
-  footer {
+
+header {
+ /*header*/
+}
+
+main {
+    /*main*/
+}
+
+nav {
       text-align: center;
-  }
-  @media and (prefers-color-scheme: dark) {
-      background: var(--bgcolor-dark);
-      color: var(--fontcolor-dark);
-  }
+}
+
+article {
+    /* for article area */
+}
+
+footer {
+      text-align: center;
+}
+
+/* to fix when I'm better informed
+@media (prefers-color-scheme: dark) {
+      background-color: var(--bgcolor-dark);
+      prefers
+}
+    */

@@ -1,20 +1,69 @@
 :root {
-    --text-color: #333333;
+    --font-size: 13px;
+    /* light theme */
+    --bgcolor-light: #FFFFEE;
+    --fontcolor-light: #001122;
+    --link-light: #115566;
+    --hover-light: #11BBCC;
+    --accent-light: #773377;
+  /* dark theme */
+    --bgcolor-dark: #001122;
+    --fontcolor-dark: #FFFFEE;
+    --link-dark: #88EEFF;
+    --hover-dark: #115566;
+    --accent-dark: #FFEECC;
+  }
+  body {
+      margin: 50px auto;
+      max-width: 640px;
+      font-size: var(--font-size);
+      font-family: "Ubuntu", "Verdana", sans-serif;
+      line-height: 1.4em;
+      background-color: var(--bgcolor-light);
+      color: var(--fontcolor-light)
+  }
+em {
+  color: var(--accent-light);
+  font-weight: 600;
 }
-
-body {
-    font-family: "Ubuntu", "Verdana", sans-serif;
-    color: var(--text-color);
+a {
+    color: var(--link-light);
+  }
+a:hover {
+  background: var(--hover-light);
+  color: var(--fontcolor-light)
+}
+a:visited{
+  color: var(--link-light);
+}
+h1,h2,h3 {
+      letter-spacing: 0.005em;
+      line-height: 1.1em;
 }
 
 header {
-    background-color: #FFDDFF;
+ /*header*/
 }
 
 main {
-    background-color: #CC6666;
+    /*main*/
+}
+
+nav {
+      text-align: center;
+}
+
+article {
+    /* for article area */
 }
 
 footer {
-    background-color: #66CC66;
+      text-align: center;
 }
+
+/* to fix when I'm better informed
+@media (prefers-color-scheme: dark) {
+      background-color: var(--bgcolor-dark);
+      prefers
+}
+    */
