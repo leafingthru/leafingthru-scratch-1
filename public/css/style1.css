@@ -1,0 +1,20 @@
+:root {
+    --text-color: #333333;
+}
+
+body {
+    font-family: "Ubuntu", "Verdana", sans-serif;
+    color: var(--text-color);
+}
+
+header {
+    background-color: #FFDDFF;
+}
+
+main {
+    background-color: #CC6666;
+}
+
+footer {
+    background-color: #66CC66;
+}
