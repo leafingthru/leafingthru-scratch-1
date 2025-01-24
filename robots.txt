@@ -22,9 +22,11 @@ User-agent: python-requests
 User-agent: prefetch-proxy
 User-agent: AhrefsBot
 User-agent: Claudebot
+User-agent: Claude-Web
 User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: AI2Bot
+User-agent: AI2Bot-Dolma
 User-agent: Bytespider
 User-agent: Kangaroo Bot
 User-agent: PanguBot
@@ -39,5 +41,17 @@ User-agent: Webzio-Extended
 User-agent: Youbot
 User-agent: OAI-SearchBot
 User-agent: Google-CloudVertexBot
+User-agent: Applebot-Extended
+User-agent: FriendlyCrawler
+User-agent: GoogleOther
+User-agent: GoogleOther-Images
+User-agent: GoogleOther-Video
+User-agent: iaskspider/2.0
+User-agent: ICC-crawler
+User-agent: ISSCCyberRiskCrawler
+User-agent: Scrapy
+User-agent: Sidetrade indexer Bot
+User-agent: VelenPublicWebCrawler
+User-agent: Twitterbot
 Disallow: /
 Disallow: *
